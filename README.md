@@ -23,3 +23,4 @@ https://cloud.google.com/cloud-build/docs/build-config
 
 https://cloud.google.com/blog/products/application-development/integrating-google-cloud-build-with-jfrog-artifactory
 
+https://cloud.google.com/cloud-build/docs/view-build-results
