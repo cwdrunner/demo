@@ -7,11 +7,10 @@ steps:
   - name: gradle:5.6.2-jdk8
     entrypoint: gradle
     args: ["assemble"]
+    dir: demo
   - name: gcr.io/cloud-builders/docker
     args: ["build", "-t", "gcr.io/$PROJECT_ID/demo", "--build-arg=JAR_FILE=build/libs/demo-0.0.1-SNAPSHOT.war", "."]
-    dir: demo
   images: ["gcr.io/$PROJECT_ID/demo"]
-
   # build the container image
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/demo:$COMMIT_SHA', '.']
