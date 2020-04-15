@@ -27,7 +27,7 @@ steps:
       - '--image'
       - 'gcr.io/$PROJECT_ID/demo:$COMMIT_SHA'
       - '--region'
-      - 'us-west-3'
+      - 'us-central1'
       - '--platform'
       - 'managed'
 # images:
