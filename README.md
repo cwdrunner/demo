@@ -15,6 +15,11 @@ Learn the capabilities of GCP as a CI/CD pipeline in order to have discussions a
 3. The base permissions given Devs in GCP can not create GCP projects or modify permissions. Someone with higher privs would need to set these up or they would need to be granted
 4. Sometimes when you hit the permissions issues it's not clear if it is a bug or not
 5. Overall the process for a master build is pretty straightforward. 
+6. GCP is pretty powerful and has some nice features when compared to AWS.
+    
+    a. The project feature is great for grouping resources
+    b. The Dashboards are clear and useful
+    c. The Cloud shell feature is really useful and east to learn 
 
 
 ###### Future Opportunities 
