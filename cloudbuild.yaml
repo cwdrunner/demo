@@ -29,6 +29,5 @@ steps:
       - 'us-west-3'
       - '--platform'
       - 'managed'
-  images:
-    - 'gcr.io/$PROJECT_ID/demo:$COMMIT_SHA'
-    -
+# images:
+#    - 'gcr.io/$PROJECT_ID/demo:$COMMIT_SHA'
