@@ -27,14 +27,11 @@ Learn the capabilities of GCP as a CI/CD pipeline in order to have discussions a
 2. Expand the demo to feature branches.
 3. Add semantic versioning
 4. Manage AAI infrastructure for feature branches using Terraform
+5. Access private github repo. https://cloud.google.com/cloud-build/docs/access-private-github-repos
 
 
 
-
-
-
-
-Process from 
+###### Process from 
 
 https://cloud.google.com/run
 
@@ -61,4 +58,5 @@ https://cloud.google.com/cloud-build/docs/view-build-results
 
 https://spring.io/guides/gs/spring-boot-docker/
 
+https://cloud.google.com/cloud-build/docs/configure-third-party-notifications#packagejson
 
